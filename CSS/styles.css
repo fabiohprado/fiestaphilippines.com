@@ -1,0 +1,43 @@
+#titulo{
+  background-color: #ef5b0c;
+}
+#navconteudo{
+  padding: 0 10%;
+}
+
+.logo{
+  width: 80px;
+}
+.titulobarra{
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+.nav-item{
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Open Sans";
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
