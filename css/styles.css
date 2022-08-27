@@ -1,0 +1,84 @@
+#titulo{
+  background-color: #ef5b0c;
+}
+#corpo{
+  background-color: #EEEEEE;
+}
+#rodape{
+  padding: 5%;
+  background-color: #ef5b0c;
+}
+h1 {
+  font-size: 100px;
+  font-family: 'Great Vibes', cursive;
+}
+h2, h3, p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*classes*/
+.container {
+    padding: 7% 2%;
+}
+.textIni{
+  text-align: center;
+}
+.imgPri{
+  width: 100%;
+}
+
+.imgIng{
+  text-align: center;
+  width: 100%;
+}
+.ender{
+  text-align: left;
+  padding-left: 30%;
+}
+.spage{
+  font-family: 'Open Sans';
+  font-size: 100px;
+}
+.descricao{
+  font-size: 30px;
+  padding-top: 10%;
+  padding-left: 3%;
+  width: 80%;
+}
+.imgr{
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.imgc{
+  width: 100%;
+  padding: 3% 0;
+
+}
+.imgt{
+  width: 100%;
+  padding-left: 2%;
+  padding-bottom: 3%;
+
+}
+.mapaicon{
+  text-align: center;
+  color: #FCD900;
+}
+
+.copy{
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+  .spage{
+    width: 100%;
+    text-align: center;
+  }
+  .imgr{
+    text-align: center;
+    width: 100%;
+  }
+}
