@@ -1,0 +1,164 @@
+#titulo, #rodape{
+  background-color: #ef5b0c;
+}
+#corpo{
+  background-color: #EEEEEE;
+  /* #EEEEEE */
+}
+#rodape{
+  padding: 2% 0 1%;
+}
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+h2, h3, p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* cabeçalho */
+.container {
+    padding: 7% 2%;
+}
+.textIni{
+  text-align: center;
+}
+.logop{
+  font-size: 100px;
+  padding-top: 20%;
+}
+.imgPri{
+  width: 100%;
+}
+
+/* final do cabeçalho */
+/* Corpo */
+.containercorpo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+.imgr{
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.spage{
+  font-family: 'Open Sans';
+  font-size: 80px;
+  padding-top: 15%;
+}
+.descricao{
+  font-family: "OpenSans";
+  font-size: 30px;
+  padding-top: 20%;
+  padding-left: 3%;
+}
+.imgc{
+  width: 100%;
+  padding: 3% 0;
+
+}
+.imgt{
+  width: 100%;
+  padding-left: 2%;
+  padding-bottom: 3%;
+
+}
+/* final corpo */
+/* Rodapé */
+.mapaicon{
+  transition: transform .2s;
+  text-align: center;
+  color: #FCD900;
+}
+.copy{
+  text-align: center;
+}
+/* final Rodapé */
+/* hover */
+
+.mapaicon:hover{
+  transform: scale(1.5);
+}
+
+/* Media settings */
+@media (min-width: 1800px) {
+  .containercorpo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  }
+}
+@media (max-width: 1399px) {
+  .logop{
+    font-size: 100px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 1216px) {
+  .imgr{
+    position: relative;
+    width: 100%;
+    padding: 19% 0 0;
+  }
+  .spage{
+    position: absolute;
+    top: 58%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 80px;
+    padding-top: 0;
+  }
+  .descricao{
+    font-family: "OpenSans";
+    font-size: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .imgc{
+    width: 100%;
+    padding: 3% 0;
+
+  }
+  .imgt{
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 0;
+
+  }
+
+}
+@media (max-width: 991px) {
+  .imgr{
+    position: relative;
+    width: 100%;
+    padding: 19% 0 0;
+  }
+  .spage{
+    position: absolute;
+    top: 93%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 80px;
+    padding-top: 0;
+  }
+  .descricao{
+    font-family: "OpenSans";
+    font-size: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .imgc{
+    width: 100%;
+    padding: 3% 0;
+
+  }
+  .imgt{
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 0;
+
+  }
+
+}
